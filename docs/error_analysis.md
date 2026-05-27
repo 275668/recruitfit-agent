@@ -8,6 +8,29 @@
 - failed_checks: 19
 - pass_rate: 76.25%
 
+## Post-fix Evaluation Summary
+
+- total_cases: 10
+- total_checks: 80
+- passed_checks: 78
+- failed_checks: 2
+- pass_rate: 97.50%
+
+### Improvements
+
+- False positives reduced: the main false positive was fixed by preventing negated sentences from counting as positive evidence. For example, `did not build an AI Agent workflow` should not support an AI Agent match.
+- False negatives reduced: explicit PRD, communication, and Data Analysis evidence is now covered through conservative skill-specific keyword variants.
+- `No evidence found` behavior remains unchanged for missing evidence.
+
+### Remaining Failures
+
+| case_id | case_name | skill_name | remaining issue | reason not fixed |
+| --- | --- | --- | --- | --- |
+| eval_006 | AI project without PRD or user story evidence | Python | Expected strong skill was not detected from the JD. | The JD does not explicitly mention Python, so expanding the JD parser would infer a requirement that is not present. |
+| eval_010 | Unsupported inference stress test | Cross-functional Communication | Expected strong skill was not detected from the JD. | The JD does not clearly contain a communication requirement, so forcing this match would weaken evidence-grounded parsing. |
+
+The remaining failures were intentionally not fixed because the JD did not explicitly contain the expected skill requirement. RecruitFit Agent should not over-expand generic keyword matching just to improve pass rate, because doing so may increase unsupported inference risk.
+
 ## Failure Categories
 
 ### False Positive: Expected Missing Skill Was Incorrectly Matched

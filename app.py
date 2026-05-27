@@ -95,7 +95,7 @@ st.caption("Evidence-grounded candidate screening and structured interview prepa
 
 st.markdown(
     """
-RecruitFit Agent helps recruiters, business interviewers, and hiring managers prepare for structured interviews by decomposing job requirements, extracting explicit resume evidence, scoring requirement alignment, and generating targeted follow-up questions.
+RecruitFit Agent is an evidence-grounded hiring screening and structured interview preparation assistant. It helps interviewers decompose job requirements, extract resume evidence, identify risks, and generate targeted interview questions. It does not make final hire or reject decisions.
 
 The core principle is evidence-grounded evaluation: every match judgment must link back to explicit resume evidence. If the resume does not support a requirement, the system must say `No evidence found`.
 """
@@ -112,7 +112,7 @@ sample_options = ["Custom input"] + [
 with st.sidebar:
     st.header("Inputs")
 
-    selected_sample = st.selectbox("Load Sample Case", sample_options)
+    selected_sample = st.selectbox("Sample Case Loader", sample_options)
     selected_index = sample_options.index(selected_sample)
     selected_case_id = selected_sample.split(" - ", maxsplit=1)[0]
 
@@ -147,9 +147,9 @@ with st.sidebar:
 
     st.divider()
     st.subheader("Evaluation Result")
-    st.metric("Pass rate", "97.50%")
     st.write("Total cases: `10`")
     st.write("Total checks: `80`")
+    st.metric("Pass rate", "97.50%")
     st.write("Failed checks: `2`")
     st.caption(
         "Remaining failures were intentionally left unresolved to avoid over-expanding generic matching rules."
@@ -189,10 +189,10 @@ if run_analysis:
 
     metric_cols = st.columns(5)
     metric_cols[0].metric("JD requirements", len(requirements))
-    metric_cols[1].metric("Avg match score", f"{average_match_score(match_results):.2f}/3")
-    metric_cols[2].metric("Strong Match", len(strong_matches))
-    metric_cols[3].metric("No Evidence", len(no_evidence_matches))
-    metric_cols[4].metric("Risk items", len(risk_items))
+    metric_cols[1].metric("Strong Match", len(strong_matches))
+    metric_cols[2].metric("No Evidence", len(no_evidence_matches))
+    metric_cols[3].metric("Risk items", len(risk_items))
+    metric_cols[4].metric("Avg match score", f"{average_match_score(match_results):.2f}/3")
 
     st.success(f"Final recommendation: {final_recommendation}")
 
@@ -204,8 +204,8 @@ if run_analysis:
             "Match Scoring",
             "Risk Diagnosis",
             "Interview Questions",
-            "Interview Scorecard",
             "Human Review Panel",
+            "Interview Scorecard",
             "Final Report",
         ]
     )
@@ -230,11 +230,15 @@ if run_analysis:
 
     with tabs[4]:
         high_risks = [item for item in risk_items if item["risk_level"] == "High"]
+        medium_risks = [item for item in risk_items if item["risk_level"] == "Medium"]
         if high_risks:
             missing_skills = ", ".join(item["skill_name"] for item in high_risks)
             st.warning(f"High-risk missing evidence found for: {missing_skills}")
-        else:
-            st.info("No high-risk missing-evidence items were generated.")
+        if medium_risks:
+            verification_skills = ", ".join(item["skill_name"] for item in medium_risks)
+            st.info(f"Medium-risk verification recommended for: {verification_skills}")
+        if not high_risks and not medium_risks:
+            st.info("No risk items were generated.")
         show_table(risk_items)
 
     with tabs[5]:
@@ -242,10 +246,6 @@ if run_analysis:
         show_table(interview_questions)
 
     with tabs[6]:
-        st.info("Use the scorecard during interviews to verify evidence, ownership, scope, and outcomes.")
-        show_table(scorecard)
-
-    with tabs[7]:
         st.info(
             "The system provides evidence-grounded screening support. Final interview and hiring decisions remain human-controlled."
         )
@@ -288,8 +288,14 @@ if run_analysis:
         summary_cols[1].metric("Manual verification", manual_count)
         summary_cols[2].metric("Override after interview", override_count)
 
+    with tabs[7]:
+        st.info("Use the scorecard during interviews to verify evidence, ownership, scope, and outcomes.")
+        show_table(scorecard)
+
     with tabs[8]:
-        st.info("The final recommendation is an interview-preparation signal, not a hire/reject decision.")
+        st.info(
+            "This system supports structured interview preparation. It does not make final hire or reject decisions."
+        )
         st.success(f"Final recommendation: {final_recommendation}")
         st.markdown(final_report)
 else:

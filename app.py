@@ -72,6 +72,24 @@ def flatten_retrieval_candidates(candidate_evidence: dict) -> list[dict]:
     return rows
 
 
+def build_review_rows(match_results: list[dict], risk_items: list[dict]) -> list[dict]:
+    risk_by_skill = {
+        item["skill_name"]: f"{item['risk_level']}: {item['risk_reason']}"
+        for item in risk_items
+    }
+    return [
+        {
+            "skill_name": item["skill_name"],
+            "skill_category": item["skill_category"],
+            "match_level": item["match_level"],
+            "score": item["score"],
+            "resume_evidence": item["resume_evidence"],
+            "risk_note": risk_by_skill.get(item["skill_name"], ""),
+        }
+        for item in match_results
+    ]
+
+
 st.title("RecruitFit Agent")
 st.caption("Evidence-grounded candidate screening and structured interview preparation.")
 
@@ -187,6 +205,7 @@ if run_analysis:
             "Risk Diagnosis",
             "Interview Questions",
             "Interview Scorecard",
+            "Human Review Panel",
             "Final Report",
         ]
     )
@@ -227,6 +246,49 @@ if run_analysis:
         show_table(scorecard)
 
     with tabs[7]:
+        st.info(
+            "The system provides evidence-grounded screening support. Final interview and hiring decisions remain human-controlled."
+        )
+
+        review_rows = build_review_rows(match_results, risk_items)
+        show_table(review_rows)
+
+        reviewer_decisions = []
+        for index, row in enumerate(review_rows):
+            with st.container(border=True):
+                st.markdown(f"**{row['skill_name']}** · {row['skill_category']}")
+                st.write(f"System judgment: `{row['match_level']}` · Score: `{row['score']}`")
+                st.write(f"Resume evidence: {row['resume_evidence']}")
+                if row["risk_note"]:
+                    st.warning(row["risk_note"])
+
+                decision = st.selectbox(
+                    "Reviewer decision",
+                    [
+                        "Accept system judgment",
+                        "Needs manual verification",
+                        "Override after interview",
+                    ],
+                    key=f"reviewer_decision_{index}_{row['skill_name']}",
+                )
+                st.text_input(
+                    "Reviewer notes",
+                    key=f"reviewer_notes_{index}_{row['skill_name']}",
+                    placeholder="Optional notes for interview follow-up...",
+                )
+                reviewer_decisions.append(decision)
+
+        accepted_count = reviewer_decisions.count("Accept system judgment")
+        manual_count = reviewer_decisions.count("Needs manual verification")
+        override_count = reviewer_decisions.count("Override after interview")
+
+        st.subheader("Review Summary")
+        summary_cols = st.columns(3)
+        summary_cols[0].metric("Accepted judgments", accepted_count)
+        summary_cols[1].metric("Manual verification", manual_count)
+        summary_cols[2].metric("Override after interview", override_count)
+
+    with tabs[8]:
         st.info("The final recommendation is an interview-preparation signal, not a hire/reject decision.")
         st.success(f"Final recommendation: {final_recommendation}")
         st.markdown(final_report)

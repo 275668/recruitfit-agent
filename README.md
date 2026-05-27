@@ -59,6 +59,12 @@ The evaluation plan focuses on:
 
 See `docs/metrics_design.md` for the initial evaluation framework.
 
+## LLM-ready Extension Plan
+
+The current MVP is fully offline and rule-based. Future versions can add LLM-assisted JD extraction, resume evidence extraction, and evidence guardrail review using the prompt builders in `src/llm_extraction_prompt.py`.
+
+Any LLM extension should preserve the evidence-grounded principle: quote exact resume evidence, output `No evidence found` when support is missing, and avoid final hire or reject decisions. See `docs/llm_extension_plan.md` for the planned extension path and risk controls.
+
 ## Project Structure
 
 ```text

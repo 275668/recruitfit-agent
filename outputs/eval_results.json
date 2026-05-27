@@ -1,0 +1,4151 @@
+{
+  "overall_summary": {
+    "total_cases": 10,
+    "total_checks": 80,
+    "passed_checks": 78,
+    "failed_checks": 2,
+    "pass_rate": 0.975
+  },
+  "case_results": [
+    {
+      "case_id": "eval_001",
+      "case_name": "Strong AI Product Manager match",
+      "job_type": "AI Product Manager",
+      "passed_checks": 12,
+      "failed_checks": 0,
+      "failure_details": [],
+      "check_details": [
+        {
+          "skill_name": "AI Agent",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories for classification, reply generation, quality check, and human escalation.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "User Story",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories for classification, reply generation, quality check, and human escalation.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "LLM",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Workflow Design",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Python",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Streamlit",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "SQL",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "A/B Testing",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Supported an A/B testing plan for the pilot launch.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "user story",
+            "user stories",
+            "acceptance criteria"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "agent",
+            "agent system",
+            "agent workflow",
+            "ticket agent",
+            "ai agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "llm",
+            "large language model",
+            "gpt",
+            "language model"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "prompt",
+            "prompt engineering",
+            "prompt design"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "required_keywords": [
+            "workflow",
+            "multi-stage",
+            "pipeline",
+            "orchestration"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Python",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "python",
+            "pandas",
+            "numpy"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "streamlit"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "sql",
+            "database",
+            "query"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "a/b testing",
+            "ab testing",
+            "experiment",
+            "controlled test"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "required_keywords": [
+            "hiring",
+            "interview",
+            "screening",
+            "candidate"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories for classification, reply generation, quality check, and human escalation.",
+          "matched_keywords": [
+            "prds"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories for classification, reply generation, quality check, and human escalation.",
+          "matched_keywords": [
+            "user stories"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "matched_keywords": [
+            "agent",
+            "agent workflow",
+            "ai agent"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "matched_keywords": [
+            "llm"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "matched_keywords": [
+            "prompt",
+            "prompt engineering"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "matched_keywords": [
+            "workflow"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Python",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "matched_keywords": [
+            "python"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "matched_keywords": [
+            "streamlit"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "matched_keywords": [
+            "sql"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Supported an A/B testing plan for the pilot launch.",
+          "matched_keywords": [
+            "a/b testing"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "matched_keywords": [
+            "metrics"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "matched_keywords": [
+            "communicated",
+            "stakeholders"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories for classification, reply generation, quality check, and human escalation.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prds."
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories for classification, reply generation, quality check, and human escalation.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): user stories."
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): agent, agent workflow, ai agent."
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): llm."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prompt, prompt engineering."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): workflow."
+        },
+        {
+          "skill_name": "Python",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): python."
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Built a customer support AI Agent workflow using Streamlit and Python.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): streamlit."
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): sql."
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Supported an A/B testing plan for the pilot launch.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): a/b testing."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): communicated, stakeholders."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "User Story",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in User Story work."
+        },
+        {
+          "skill_name": "LLM",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in LLM work."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Workflow Design work."
+        },
+        {
+          "skill_name": "Python",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Python work."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Evaluation Metrics work."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Hiring and Interview."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "User Story",
+          "main_question": "Describe a user story you wrote that changed the product team's implementation approach.",
+          "follow_up_question": "How did you define acceptance criteria and validate that the story was complete?",
+          "evaluation_focus": "User-centered thinking, acceptance criteria, delivery clarity."
+        },
+        {
+          "skill_name": "LLM",
+          "main_question": "Give an example of work where you used or evaluated a large language model.",
+          "follow_up_question": "How did you judge output quality and reduce unsupported assumptions?",
+          "evaluation_focus": "LLM literacy, quality judgment, hallucination awareness."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "main_question": "Walk through a multi-stage workflow or pipeline you designed.",
+          "follow_up_question": "Where did you add checks, handoffs, or error handling?",
+          "evaluation_focus": "Process decomposition, sequencing, reliability."
+        },
+        {
+          "skill_name": "Python",
+          "main_question": "Describe a Python project or analysis workflow you personally implemented.",
+          "follow_up_question": "Which libraries did you use, and what parts did you structure into reusable code?",
+          "evaluation_focus": "Hands-on coding, code structure, practical tooling."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "main_question": "Describe your experience designing or supporting a hiring interview process.",
+          "follow_up_question": "How did you make the process structured and fair for candidates?",
+          "evaluation_focus": "Interview structure, evidence-based evaluation, fairness."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_002",
+      "case_name": "Medium product candidate with weak AI evidence",
+      "job_type": "AI Product Manager",
+      "passed_checks": 8,
+      "failed_checks": 0,
+      "failure_details": [],
+      "check_details": [
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "User Story",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Used dashboards to track adoption metrics.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "LLM",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Streamlit",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "SQL",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "user story",
+            "user stories",
+            "acceptance criteria"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "agent",
+            "agent system",
+            "agent workflow",
+            "ticket agent",
+            "ai agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "llm",
+            "large language model",
+            "gpt",
+            "language model"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "prompt",
+            "prompt engineering",
+            "prompt design"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "required_keywords": [
+            "workflow",
+            "multi-stage",
+            "pipeline",
+            "orchestration"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "streamlit"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "sql",
+            "database",
+            "query"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "matched_keywords": [
+            "prds"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "matched_keywords": [
+            "user stories"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Used dashboards to track adoption metrics.",
+          "matched_keywords": [
+            "metrics"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "matched_keywords": [
+            "stakeholders"
+          ],
+          "evidence_strength": "Medium"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prds."
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): user stories."
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Used dashboards to track adoption metrics.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): stakeholders."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "User Story",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in User Story work."
+        },
+        {
+          "skill_name": "AI Agent",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving AI Agent."
+        },
+        {
+          "skill_name": "LLM",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving LLM."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Prompt Engineering."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Workflow Design."
+        },
+        {
+          "skill_name": "Streamlit",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Streamlit."
+        },
+        {
+          "skill_name": "SQL",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving SQL."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Evaluation Metrics work."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Cross-functional Communication work."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "User Story",
+          "main_question": "Describe a user story you wrote that changed the product team's implementation approach.",
+          "follow_up_question": "How did you define acceptance criteria and validate that the story was complete?",
+          "evaluation_focus": "User-centered thinking, acceptance criteria, delivery clarity."
+        },
+        {
+          "skill_name": "AI Agent",
+          "main_question": "Describe an AI agent workflow you designed, built, or evaluated.",
+          "follow_up_question": "How did you define the agent stages, failure handling, and human review points?",
+          "evaluation_focus": "Agent workflow understanding, control boundaries, practical implementation."
+        },
+        {
+          "skill_name": "LLM",
+          "main_question": "Give an example of work where you used or evaluated a large language model.",
+          "follow_up_question": "How did you judge output quality and reduce unsupported assumptions?",
+          "evaluation_focus": "LLM literacy, quality judgment, hallucination awareness."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "main_question": "Share a prompt design example where changing the prompt improved output quality.",
+          "follow_up_question": "What variables did you test, and how did you evaluate the improvement?",
+          "evaluation_focus": "Prompt iteration, evaluation discipline, clarity of constraints."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "main_question": "Walk through a multi-stage workflow or pipeline you designed.",
+          "follow_up_question": "Where did you add checks, handoffs, or error handling?",
+          "evaluation_focus": "Process decomposition, sequencing, reliability."
+        },
+        {
+          "skill_name": "Streamlit",
+          "main_question": "Tell me about a Streamlit app or internal demo you built.",
+          "follow_up_question": "How did users interact with it, and what feedback changed the design?",
+          "evaluation_focus": "Demo implementation, user workflow, interface thinking."
+        },
+        {
+          "skill_name": "SQL",
+          "main_question": "Describe a SQL analysis you wrote to answer a business question.",
+          "follow_up_question": "How did you validate the query result and handle messy data?",
+          "evaluation_focus": "Query skill, data validation, business interpretation."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "main_question": "Tell me about a time you aligned stakeholders with different priorities.",
+          "follow_up_question": "What did you communicate differently to technical and non-technical partners?",
+          "evaluation_focus": "Stakeholder management, clarity, influence."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_003",
+      "case_name": "Buzzwords with weak project evidence",
+      "job_type": "AI Product Manager",
+      "passed_checks": 6,
+      "failed_checks": 0,
+      "failure_details": [],
+      "check_details": [
+        {
+          "skill_name": "LLM",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "RAG",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "AI Agent",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics. Interested in building agentic products and improving enterprise workflows.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Strong communicator who enjoys cross-functional collaboration.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "agent",
+            "agent system",
+            "agent workflow",
+            "ticket agent",
+            "ai agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "llm",
+            "large language model",
+            "gpt",
+            "language model"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "prompt",
+            "prompt engineering",
+            "prompt design"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "RAG",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "rag",
+            "retrieval augmented generation",
+            "retrieval"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "required_keywords": [
+            "workflow",
+            "multi-stage",
+            "pipeline",
+            "orchestration"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics. Interested in building agentic products and improving enterprise workflows.",
+          "matched_keywords": [
+            "agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "matched_keywords": [
+            "llm"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "matched_keywords": [
+            "prompt",
+            "prompt engineering"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "RAG",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "matched_keywords": [
+            "rag"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Strong communicator who enjoys cross-functional collaboration.",
+          "matched_keywords": [
+            "cross-functional"
+          ],
+          "evidence_strength": "Medium"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics. Interested in building agentic products and improving enterprise workflows.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): agent, agentic, autonomous agent."
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): llm."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prompt, prompt engineering."
+        },
+        {
+          "skill_name": "RAG",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): rag."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Strong communicator who enjoys cross-functional collaboration.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): cross-functional."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "LLM",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in LLM work."
+        },
+        {
+          "skill_name": "RAG",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in RAG work."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Workflow Design."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Evaluation Metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Cross-functional Communication work."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "LLM",
+          "main_question": "Give an example of work where you used or evaluated a large language model.",
+          "follow_up_question": "How did you judge output quality and reduce unsupported assumptions?",
+          "evaluation_focus": "LLM literacy, quality judgment, hallucination awareness."
+        },
+        {
+          "skill_name": "RAG",
+          "main_question": "Describe your experience with retrieval augmented generation or retrieval-based workflows.",
+          "follow_up_question": "How did you decide what source content should be retrieved and cited?",
+          "evaluation_focus": "Retrieval design, grounding, source quality."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "main_question": "Walk through a multi-stage workflow or pipeline you designed.",
+          "follow_up_question": "Where did you add checks, handoffs, or error handling?",
+          "evaluation_focus": "Process decomposition, sequencing, reliability."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "main_question": "Tell me about a time you aligned stakeholders with different priorities.",
+          "follow_up_question": "What did you communicate differently to technical and non-technical partners?",
+          "evaluation_focus": "Stakeholder management, clarity, influence."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_004",
+      "case_name": "Candidate missing SQL evidence",
+      "job_type": "Data Product Manager",
+      "passed_checks": 6,
+      "failed_checks": 0,
+      "failure_details": [],
+      "check_details": [
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "User Story",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Data Analysis",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Worked as a product manager for an internal dashboard product. Used product analytics dashboards to identify adoption issues.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "SQL",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "user story",
+            "user stories",
+            "acceptance criteria"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "sql",
+            "database",
+            "query"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "required_keywords": [
+            "data analysis",
+            "growth analysis",
+            "analytics",
+            "insight",
+            "dashboard",
+            "dashboards",
+            "product dashboards"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "matched_keywords": [
+            "prds"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "matched_keywords": [
+            "user stories"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "resume_evidence": "Worked as a product manager for an internal dashboard product. Used product analytics dashboards to identify adoption issues.",
+          "matched_keywords": [
+            "analytics",
+            "dashboard",
+            "dashboards"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "matched_keywords": [
+            "metrics"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "matched_keywords": [
+            "communicated",
+            "stakeholder"
+          ],
+          "evidence_strength": "Strong"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prds."
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): user stories."
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "resume_evidence": "Worked as a product manager for an internal dashboard product. Used product analytics dashboards to identify adoption issues.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): analytics, dashboard, dashboards."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): communicated, stakeholder."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "User Story",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in User Story work."
+        },
+        {
+          "skill_name": "SQL",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving SQL."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Evaluation Metrics work."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "User Story",
+          "main_question": "Describe a user story you wrote that changed the product team's implementation approach.",
+          "follow_up_question": "How did you define acceptance criteria and validate that the story was complete?",
+          "evaluation_focus": "User-centered thinking, acceptance criteria, delivery clarity."
+        },
+        {
+          "skill_name": "SQL",
+          "main_question": "Describe a SQL analysis you wrote to answer a business question.",
+          "follow_up_question": "How did you validate the query result and handle messy data?",
+          "evaluation_focus": "Query skill, data validation, business interpretation."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_005",
+      "case_name": "Candidate missing A/B testing evidence",
+      "job_type": "Growth Product Manager",
+      "passed_checks": 6,
+      "failed_checks": 0,
+      "failure_details": [],
+      "check_details": [
+        {
+          "skill_name": "SQL",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Led growth analysis for onboarding funnels using SQL and product dashboards.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Data Analysis",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Led growth analysis for onboarding funnels using SQL and product dashboards.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "A/B Testing",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "sql",
+            "database",
+            "query"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "required_keywords": [
+            "data analysis",
+            "growth analysis",
+            "analytics",
+            "insight",
+            "dashboard",
+            "dashboards",
+            "product dashboards"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "a/b testing",
+            "ab testing",
+            "experiment",
+            "controlled test"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "matched_keywords": [
+            "prds"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Led growth analysis for onboarding funnels using SQL and product dashboards.",
+          "matched_keywords": [
+            "sql"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "resume_evidence": "Led growth analysis for onboarding funnels using SQL and product dashboards.",
+          "matched_keywords": [
+            "dashboards",
+            "growth analysis",
+            "product dashboards"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "matched_keywords": [
+            "metrics"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "matched_keywords": [
+            "communicated"
+          ],
+          "evidence_strength": "Medium"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prds."
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Led growth analysis for onboarding funnels using SQL and product dashboards.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): sql."
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "resume_evidence": "Led growth analysis for onboarding funnels using SQL and product dashboards.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): dashboards, growth analysis, product dashboards."
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): communicated."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "A/B Testing",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving A/B Testing."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Evaluation Metrics work."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Cross-functional Communication work."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "A/B Testing",
+          "main_question": "Walk through an A/B test you designed, analyzed, or interpreted.",
+          "follow_up_question": "How did you choose the metric, sample, and decision rule?",
+          "evaluation_focus": "Experiment design, metric choice, causal interpretation."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "main_question": "Tell me about a time you aligned stakeholders with different priorities.",
+          "follow_up_question": "What did you communicate differently to technical and non-technical partners?",
+          "evaluation_focus": "Stakeholder management, clarity, influence."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_006",
+      "case_name": "AI project without PRD or user story evidence",
+      "job_type": "AI Product Manager",
+      "passed_checks": 8,
+      "failed_checks": 1,
+      "failure_details": [
+        "Python: expected Strong/Medium Match, but skill was not detected from the JD."
+      ],
+      "check_details": [
+        {
+          "skill_name": "AI Agent",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Built a document review AI Agent system using Python.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Workflow Design",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Designed a workflow for retrieval, LLM response generation, quality check, and human escalation.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "LLM",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Designed a workflow for retrieval, LLM response generation, quality check, and human escalation.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Tested prompt engineering variants and documented evaluation metrics for accuracy and unsupported answer rate.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Python",
+          "expectation": "expected_strong",
+          "passed": false,
+          "actual_match_level": "Skill not detected",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": "Python: expected Strong/Medium Match, but skill was not detected from the JD."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Tested prompt engineering variants and documented evaluation metrics for accuracy and unsupported answer rate.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Presented technical findings to engineers.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "User Story",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "user story",
+            "user stories",
+            "acceptance criteria"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "agent",
+            "agent system",
+            "agent workflow",
+            "ticket agent",
+            "ai agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "llm",
+            "large language model",
+            "gpt",
+            "language model"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "prompt",
+            "prompt engineering",
+            "prompt design"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "required_keywords": [
+            "workflow",
+            "multi-stage",
+            "pipeline",
+            "orchestration"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "required_keywords": [
+            "hiring",
+            "interview",
+            "screening",
+            "candidate"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Built a document review AI Agent system using Python.",
+          "matched_keywords": [
+            "agent",
+            "agent system",
+            "ai agent"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Designed a workflow for retrieval, LLM response generation, quality check, and human escalation.",
+          "matched_keywords": [
+            "llm"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Tested prompt engineering variants and documented evaluation metrics for accuracy and unsupported answer rate.",
+          "matched_keywords": [
+            "prompt",
+            "prompt engineering"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "Designed a workflow for retrieval, LLM response generation, quality check, and human escalation.",
+          "matched_keywords": [
+            "workflow"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Tested prompt engineering variants and documented evaluation metrics for accuracy and unsupported answer rate.",
+          "matched_keywords": [
+            "metrics"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Presented technical findings to engineers.",
+          "matched_keywords": [
+            "presented"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Built a document review AI Agent system using Python.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): agent, agent system, ai agent."
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Designed a workflow for retrieval, LLM response generation, quality check, and human escalation.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): llm."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Tested prompt engineering variants and documented evaluation metrics for accuracy and unsupported answer rate.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prompt, prompt engineering."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "Designed a workflow for retrieval, LLM response generation, quality check, and human escalation.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): workflow."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Tested prompt engineering variants and documented evaluation metrics for accuracy and unsupported answer rate.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Presented technical findings to engineers.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): presented."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Product Requirement Document."
+        },
+        {
+          "skill_name": "User Story",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving User Story."
+        },
+        {
+          "skill_name": "LLM",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in LLM work."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Workflow Design work."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Evaluation Metrics work."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Cross-functional Communication work."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Hiring and Interview."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "Product Requirement Document",
+          "main_question": "Walk through a PRD you owned. What problem did it define, and how did it guide execution?",
+          "follow_up_question": "What tradeoffs or requirement changes did you manage after stakeholder feedback?",
+          "evaluation_focus": "Problem framing, requirement clarity, tradeoff handling, execution support."
+        },
+        {
+          "skill_name": "User Story",
+          "main_question": "Describe a user story you wrote that changed the product team's implementation approach.",
+          "follow_up_question": "How did you define acceptance criteria and validate that the story was complete?",
+          "evaluation_focus": "User-centered thinking, acceptance criteria, delivery clarity."
+        },
+        {
+          "skill_name": "LLM",
+          "main_question": "Give an example of work where you used or evaluated a large language model.",
+          "follow_up_question": "How did you judge output quality and reduce unsupported assumptions?",
+          "evaluation_focus": "LLM literacy, quality judgment, hallucination awareness."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "main_question": "Walk through a multi-stage workflow or pipeline you designed.",
+          "follow_up_question": "Where did you add checks, handoffs, or error handling?",
+          "evaluation_focus": "Process decomposition, sequencing, reliability."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "main_question": "Tell me about a time you aligned stakeholders with different priorities.",
+          "follow_up_question": "What did you communicate differently to technical and non-technical partners?",
+          "evaluation_focus": "Stakeholder management, clarity, influence."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "main_question": "Describe your experience designing or supporting a hiring interview process.",
+          "follow_up_question": "How did you make the process structured and fair for candidates?",
+          "evaluation_focus": "Interview structure, evidence-based evaluation, fairness."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_007",
+      "case_name": "Product experience without AI Agent workflow evidence",
+      "job_type": "Product Manager",
+      "passed_checks": 7,
+      "failed_checks": 0,
+      "failure_details": [],
+      "check_details": [
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "User Story",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Prototype Design",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "AI Agent",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "LLM",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "user story",
+            "user stories",
+            "acceptance criteria"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Prototype Design",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prototype",
+            "wireframe",
+            "figma",
+            "mockup"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "agent",
+            "agent system",
+            "agent workflow",
+            "ticket agent",
+            "ai agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "llm",
+            "large language model",
+            "gpt",
+            "language model"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "required_keywords": [
+            "workflow",
+            "multi-stage",
+            "pipeline",
+            "orchestration"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "matched_keywords": [
+            "prds"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "matched_keywords": [
+            "user stories"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Prototype Design",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "matched_keywords": [
+            "figma"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "Product manager for a B2B workflow platform.",
+          "matched_keywords": [
+            "workflow"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "matched_keywords": [
+            "metrics"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "matched_keywords": [
+            "collaborated"
+          ],
+          "evidence_strength": "Medium"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prds."
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): user stories."
+        },
+        {
+          "skill_name": "Prototype Design",
+          "skill_category": "Product Management",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): figma."
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "Product manager for a B2B workflow platform.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): workflow."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): collaborated."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "User Story",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in User Story work."
+        },
+        {
+          "skill_name": "AI Agent",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving AI Agent."
+        },
+        {
+          "skill_name": "LLM",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving LLM."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Workflow Design work."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Evaluation Metrics work."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Cross-functional Communication work."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "User Story",
+          "main_question": "Describe a user story you wrote that changed the product team's implementation approach.",
+          "follow_up_question": "How did you define acceptance criteria and validate that the story was complete?",
+          "evaluation_focus": "User-centered thinking, acceptance criteria, delivery clarity."
+        },
+        {
+          "skill_name": "AI Agent",
+          "main_question": "Describe an AI agent workflow you designed, built, or evaluated.",
+          "follow_up_question": "How did you define the agent stages, failure handling, and human review points?",
+          "evaluation_focus": "Agent workflow understanding, control boundaries, practical implementation."
+        },
+        {
+          "skill_name": "LLM",
+          "main_question": "Give an example of work where you used or evaluated a large language model.",
+          "follow_up_question": "How did you judge output quality and reduce unsupported assumptions?",
+          "evaluation_focus": "LLM literacy, quality judgment, hallucination awareness."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "main_question": "Walk through a multi-stage workflow or pipeline you designed.",
+          "follow_up_question": "Where did you add checks, handoffs, or error handling?",
+          "evaluation_focus": "Process decomposition, sequencing, reliability."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "main_question": "Tell me about a time you aligned stakeholders with different priorities.",
+          "follow_up_question": "What did you communicate differently to technical and non-technical partners?",
+          "evaluation_focus": "Stakeholder management, clarity, influence."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_008",
+      "case_name": "CADD AIDD background transitioning to AI product",
+      "job_type": "AI Product Manager",
+      "passed_checks": 8,
+      "failed_checks": 0,
+      "failure_details": [],
+      "check_details": [
+        {
+          "skill_name": "Python",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Used Python for data analysis and built dashboards to review model outputs.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Data Analysis",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Used Python for data analysis and built dashboards to review model outputs.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Documented evaluation metrics for hit rate and false positive review.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Collaborated with scientists and engineers to translate research needs into product requirements.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Collaborated with scientists and engineers to translate research needs into product requirements.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "LLM",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Explored LLM summaries for experiment notes but did not build an AI Agent workflow.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "AI Agent",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "agent",
+            "agent system",
+            "agent workflow",
+            "ticket agent",
+            "ai agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "llm",
+            "large language model",
+            "gpt",
+            "language model"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "prompt",
+            "prompt engineering",
+            "prompt design"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "required_keywords": [
+            "workflow",
+            "multi-stage",
+            "pipeline",
+            "orchestration"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Python",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "python",
+            "pandas",
+            "numpy"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "required_keywords": [
+            "data analysis",
+            "growth analysis",
+            "analytics",
+            "insight",
+            "dashboard",
+            "dashboards",
+            "product dashboards"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Collaborated with scientists and engineers to translate research needs into product requirements.",
+          "matched_keywords": [
+            "product requirements"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Explored LLM summaries for experiment notes but did not build an AI Agent workflow.",
+          "matched_keywords": [
+            "llm"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "Explored LLM summaries for experiment notes but did not build an AI Agent workflow.",
+          "matched_keywords": [
+            "workflow"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Python",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Used Python for data analysis and built dashboards to review model outputs.",
+          "matched_keywords": [
+            "python"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "resume_evidence": "Used Python for data analysis and built dashboards to review model outputs.",
+          "matched_keywords": [
+            "dashboards",
+            "data analysis"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Documented evaluation metrics for hit rate and false positive review.",
+          "matched_keywords": [
+            "metrics"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Collaborated with scientists and engineers to translate research needs into product requirements.",
+          "matched_keywords": [
+            "collaborated"
+          ],
+          "evidence_strength": "Medium"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Collaborated with scientists and engineers to translate research needs into product requirements.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): product requirements."
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Explored LLM summaries for experiment notes but did not build an AI Agent workflow.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): llm."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "Explored LLM summaries for experiment notes but did not build an AI Agent workflow.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): workflow."
+        },
+        {
+          "skill_name": "Python",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "Used Python for data analysis and built dashboards to review model outputs.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): python."
+        },
+        {
+          "skill_name": "Data Analysis",
+          "skill_category": "Data Analysis",
+          "resume_evidence": "Used Python for data analysis and built dashboards to review model outputs.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): dashboards, data analysis."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Documented evaluation metrics for hit rate and false positive review.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Collaborated with scientists and engineers to translate research needs into product requirements.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): collaborated."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "AI Agent",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving AI Agent."
+        },
+        {
+          "skill_name": "LLM",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in LLM work."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Prompt Engineering."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Workflow Design work."
+        },
+        {
+          "skill_name": "Python",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Python work."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Evaluation Metrics work."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Cross-functional Communication work."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "AI Agent",
+          "main_question": "Describe an AI agent workflow you designed, built, or evaluated.",
+          "follow_up_question": "How did you define the agent stages, failure handling, and human review points?",
+          "evaluation_focus": "Agent workflow understanding, control boundaries, practical implementation."
+        },
+        {
+          "skill_name": "LLM",
+          "main_question": "Give an example of work where you used or evaluated a large language model.",
+          "follow_up_question": "How did you judge output quality and reduce unsupported assumptions?",
+          "evaluation_focus": "LLM literacy, quality judgment, hallucination awareness."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "main_question": "Share a prompt design example where changing the prompt improved output quality.",
+          "follow_up_question": "What variables did you test, and how did you evaluate the improvement?",
+          "evaluation_focus": "Prompt iteration, evaluation discipline, clarity of constraints."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "main_question": "Walk through a multi-stage workflow or pipeline you designed.",
+          "follow_up_question": "Where did you add checks, handoffs, or error handling?",
+          "evaluation_focus": "Process decomposition, sequencing, reliability."
+        },
+        {
+          "skill_name": "Python",
+          "main_question": "Describe a Python project or analysis workflow you personally implemented.",
+          "follow_up_question": "Which libraries did you use, and what parts did you structure into reusable code?",
+          "evaluation_focus": "Hands-on coding, code structure, practical tooling."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "main_question": "Tell me about a time you aligned stakeholders with different priorities.",
+          "follow_up_question": "What did you communicate differently to technical and non-technical partners?",
+          "evaluation_focus": "Stakeholder management, clarity, influence."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_009",
+      "case_name": "HR Tech screening scenario",
+      "job_type": "HR Tech Product Manager",
+      "passed_checks": 7,
+      "failed_checks": 0,
+      "failure_details": [],
+      "check_details": [
+        {
+          "skill_name": "Hiring and Interview",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate. Reviewed prompt engineering guidelines for candidate summary generation.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "HR Tech",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Designed a recruiting analytics dashboard for talent acquisition teams.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Medium Match",
+          "actual_resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Reviewed prompt engineering guidelines for candidate summary generation.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": true,
+          "actual_match_level": "Strong Match",
+          "actual_resume_evidence": "Collaborated with HR, legal, and engineering stakeholders.",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "AI Agent",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "agent",
+            "agent system",
+            "agent workflow",
+            "ticket agent",
+            "ai agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "prompt",
+            "prompt engineering",
+            "prompt design"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "required_keywords": [
+            "workflow",
+            "multi-stage",
+            "pipeline",
+            "orchestration"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "required_keywords": [
+            "cross-functional",
+            "stakeholder",
+            "stakeholders",
+            "communicate",
+            "communicated",
+            "communication",
+            "collaborate",
+            "collaborated",
+            "presented"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "required_keywords": [
+            "hiring",
+            "interview",
+            "screening",
+            "candidate"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "HR Tech",
+          "skill_category": "Domain Knowledge",
+          "required_keywords": [
+            "hr tech",
+            "recruiting",
+            "recruitment",
+            "talent acquisition"
+          ],
+          "importance": "Medium"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate.",
+          "matched_keywords": [
+            "prds"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Reviewed prompt engineering guidelines for candidate summary generation.",
+          "matched_keywords": [
+            "prompt",
+            "prompt engineering"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate.",
+          "matched_keywords": [
+            "metrics"
+          ],
+          "evidence_strength": "Medium"
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Collaborated with HR, legal, and engineering stakeholders.",
+          "matched_keywords": [
+            "collaborated",
+            "stakeholders"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate. Reviewed prompt engineering guidelines for candidate summary generation.",
+          "matched_keywords": [
+            "candidate",
+            "screening"
+          ],
+          "evidence_strength": "Strong"
+        },
+        {
+          "skill_name": "HR Tech",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "Designed a recruiting analytics dashboard for talent acquisition teams.",
+          "matched_keywords": [
+            "recruiting",
+            "talent acquisition"
+          ],
+          "evidence_strength": "Strong"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prds."
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "Reviewed prompt engineering guidelines for candidate summary generation.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): prompt, prompt engineering."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate.",
+          "evidence_strength": "Medium",
+          "match_level": "Medium Match",
+          "score": 2,
+          "explanation": "Medium Match because the resume evidence explicitly contains matched keyword(s): metrics."
+        },
+        {
+          "skill_name": "Cross-functional Communication",
+          "skill_category": "Communication",
+          "resume_evidence": "Collaborated with HR, legal, and engineering stakeholders.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): collaborated, stakeholders."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate. Reviewed prompt engineering guidelines for candidate summary generation.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): candidate, screening."
+        },
+        {
+          "skill_name": "HR Tech",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "Designed a recruiting analytics dashboard for talent acquisition teams.",
+          "evidence_strength": "Strong",
+          "match_level": "Strong Match",
+          "score": 3,
+          "explanation": "Strong Match because the resume evidence explicitly contains matched keyword(s): recruiting, talent acquisition."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "AI Agent",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving AI Agent."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Workflow Design."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "Medium",
+          "risk_reason": "Some evidence exists, but it may not prove depth, ownership, or outcomes.",
+          "suggested_verification": "Verify the candidate's role, scope, and measurable impact in Evaluation Metrics work."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "AI Agent",
+          "main_question": "Describe an AI agent workflow you designed, built, or evaluated.",
+          "follow_up_question": "How did you define the agent stages, failure handling, and human review points?",
+          "evaluation_focus": "Agent workflow understanding, control boundaries, practical implementation."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "main_question": "Walk through a multi-stage workflow or pipeline you designed.",
+          "follow_up_question": "Where did you add checks, handoffs, or error handling?",
+          "evaluation_focus": "Process decomposition, sequencing, reliability."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        }
+      ]
+    },
+    {
+      "case_id": "eval_010",
+      "case_name": "Unsupported inference stress test",
+      "job_type": "AI Product Manager",
+      "passed_checks": 10,
+      "failed_checks": 1,
+      "failure_details": [
+        "Cross-functional Communication: expected Strong/Medium Match, but skill was not detected from the JD."
+      ],
+      "check_details": [
+        {
+          "skill_name": "Cross-functional Communication",
+          "expectation": "expected_strong",
+          "passed": false,
+          "actual_match_level": "Skill not detected",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": "Cross-functional Communication: expected Strong/Medium Match, but skill was not detected from the JD."
+        },
+        {
+          "skill_name": "AI Agent",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "LLM",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "RAG",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "SQL",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "A/B Testing",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Product Requirement Document",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "User Story",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        },
+        {
+          "skill_name": "Streamlit",
+          "expectation": "expected_missing",
+          "passed": true,
+          "actual_match_level": "No Evidence",
+          "actual_resume_evidence": "No evidence found",
+          "failure_detail": ""
+        }
+      ],
+      "actual_requirements": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "prd",
+            "prds",
+            "product requirement",
+            "product requirements",
+            "requirements document"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "required_keywords": [
+            "user story",
+            "user stories",
+            "acceptance criteria"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "agent",
+            "agent system",
+            "agent workflow",
+            "ticket agent",
+            "ai agent",
+            "agentic",
+            "autonomous agent"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "llm",
+            "large language model",
+            "gpt",
+            "language model"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "prompt",
+            "prompt engineering",
+            "prompt design"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "RAG",
+          "skill_category": "AI and LLM",
+          "required_keywords": [
+            "rag",
+            "retrieval augmented generation",
+            "retrieval"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "required_keywords": [
+            "workflow",
+            "multi-stage",
+            "pipeline",
+            "orchestration"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "streamlit"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "required_keywords": [
+            "sql",
+            "database",
+            "query"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "a/b testing",
+            "ab testing",
+            "experiment",
+            "controlled test"
+          ],
+          "importance": "Medium"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "required_keywords": [
+            "metrics",
+            "evaluation metric",
+            "kpi",
+            "success metric"
+          ],
+          "importance": "High"
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "required_keywords": [
+            "hiring",
+            "interview",
+            "screening",
+            "candidate"
+          ],
+          "importance": "High"
+        }
+      ],
+      "actual_evidence_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "RAG",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "No evidence found",
+          "matched_keywords": [],
+          "evidence_strength": "Missing"
+        }
+      ],
+      "actual_match_results": [
+        {
+          "skill_name": "Product Requirement Document",
+          "skill_category": "Product Management",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "User Story",
+          "skill_category": "Product Management",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "AI Agent",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "LLM",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "RAG",
+          "skill_category": "AI and LLM",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "skill_category": "Agent Workflow",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Streamlit",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "SQL",
+          "skill_category": "Technical Tools",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "A/B Testing",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "skill_category": "Experiment Design",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "skill_category": "Domain Knowledge",
+          "resume_evidence": "No evidence found",
+          "evidence_strength": "Missing",
+          "match_level": "No Evidence",
+          "score": 0,
+          "explanation": "No explicit resume evidence was found for this JD requirement."
+        }
+      ],
+      "actual_risk_items": [
+        {
+          "skill_name": "Product Requirement Document",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Product Requirement Document."
+        },
+        {
+          "skill_name": "User Story",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving User Story."
+        },
+        {
+          "skill_name": "AI Agent",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving AI Agent."
+        },
+        {
+          "skill_name": "LLM",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving LLM."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Prompt Engineering."
+        },
+        {
+          "skill_name": "RAG",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving RAG."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Workflow Design."
+        },
+        {
+          "skill_name": "Streamlit",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Streamlit."
+        },
+        {
+          "skill_name": "SQL",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving SQL."
+        },
+        {
+          "skill_name": "A/B Testing",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving A/B Testing."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Evaluation Metrics."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "risk_level": "High",
+          "risk_reason": "No explicit resume evidence found for this required skill.",
+          "suggested_verification": "Ask the candidate to provide a concrete example involving Hiring and Interview."
+        }
+      ],
+      "actual_interview_questions": [
+        {
+          "skill_name": "Product Requirement Document",
+          "main_question": "Walk through a PRD you owned. What problem did it define, and how did it guide execution?",
+          "follow_up_question": "What tradeoffs or requirement changes did you manage after stakeholder feedback?",
+          "evaluation_focus": "Problem framing, requirement clarity, tradeoff handling, execution support."
+        },
+        {
+          "skill_name": "User Story",
+          "main_question": "Describe a user story you wrote that changed the product team's implementation approach.",
+          "follow_up_question": "How did you define acceptance criteria and validate that the story was complete?",
+          "evaluation_focus": "User-centered thinking, acceptance criteria, delivery clarity."
+        },
+        {
+          "skill_name": "AI Agent",
+          "main_question": "Describe an AI agent workflow you designed, built, or evaluated.",
+          "follow_up_question": "How did you define the agent stages, failure handling, and human review points?",
+          "evaluation_focus": "Agent workflow understanding, control boundaries, practical implementation."
+        },
+        {
+          "skill_name": "LLM",
+          "main_question": "Give an example of work where you used or evaluated a large language model.",
+          "follow_up_question": "How did you judge output quality and reduce unsupported assumptions?",
+          "evaluation_focus": "LLM literacy, quality judgment, hallucination awareness."
+        },
+        {
+          "skill_name": "Prompt Engineering",
+          "main_question": "Share a prompt design example where changing the prompt improved output quality.",
+          "follow_up_question": "What variables did you test, and how did you evaluate the improvement?",
+          "evaluation_focus": "Prompt iteration, evaluation discipline, clarity of constraints."
+        },
+        {
+          "skill_name": "RAG",
+          "main_question": "Describe your experience with retrieval augmented generation or retrieval-based workflows.",
+          "follow_up_question": "How did you decide what source content should be retrieved and cited?",
+          "evaluation_focus": "Retrieval design, grounding, source quality."
+        },
+        {
+          "skill_name": "Workflow Design",
+          "main_question": "Walk through a multi-stage workflow or pipeline you designed.",
+          "follow_up_question": "Where did you add checks, handoffs, or error handling?",
+          "evaluation_focus": "Process decomposition, sequencing, reliability."
+        },
+        {
+          "skill_name": "Streamlit",
+          "main_question": "Tell me about a Streamlit app or internal demo you built.",
+          "follow_up_question": "How did users interact with it, and what feedback changed the design?",
+          "evaluation_focus": "Demo implementation, user workflow, interface thinking."
+        },
+        {
+          "skill_name": "SQL",
+          "main_question": "Describe a SQL analysis you wrote to answer a business question.",
+          "follow_up_question": "How did you validate the query result and handle messy data?",
+          "evaluation_focus": "Query skill, data validation, business interpretation."
+        },
+        {
+          "skill_name": "A/B Testing",
+          "main_question": "Walk through an A/B test you designed, analyzed, or interpreted.",
+          "follow_up_question": "How did you choose the metric, sample, and decision rule?",
+          "evaluation_focus": "Experiment design, metric choice, causal interpretation."
+        },
+        {
+          "skill_name": "Evaluation Metrics",
+          "main_question": "Describe a metric framework you created for a product, model, or workflow.",
+          "follow_up_question": "How did you prevent the metric from encouraging the wrong behavior?",
+          "evaluation_focus": "Metric design, tradeoffs, product judgment."
+        },
+        {
+          "skill_name": "Hiring and Interview",
+          "main_question": "Describe your experience designing or supporting a hiring interview process.",
+          "follow_up_question": "How did you make the process structured and fair for candidates?",
+          "evaluation_focus": "Interview structure, evidence-based evaluation, fairness."
+        }
+      ]
+    }
+  ]
+}

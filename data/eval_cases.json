@@ -1,0 +1,247 @@
+[
+  {
+    "case_id": "eval_001",
+    "case_name": "Strong AI Product Manager match",
+    "job_type": "AI Product Manager",
+    "jd_text": "We are hiring an AI Product Manager to design AI Agent workflows, write PRDs and user stories, work with LLM and prompt engineering teams, define evaluation metrics, analyze product data, and communicate with engineering stakeholders. Python, Streamlit, SQL, and A/B testing experience are preferred.",
+    "resume_text": "Built a customer support AI Agent workflow using Streamlit and Python. Wrote PRDs and user stories for classification, reply generation, quality check, and human escalation. Designed prompt engineering experiments for LLM output quality, defined evaluation metrics, analyzed product data with SQL, and communicated roadmap tradeoffs with engineering stakeholders. Supported an A/B testing plan for the pilot launch.",
+    "expected_strong_skills": [
+      "AI Agent",
+      "Product Requirement Document",
+      "User Story",
+      "LLM",
+      "Prompt Engineering",
+      "Workflow Design",
+      "Python",
+      "Streamlit",
+      "SQL",
+      "A/B Testing",
+      "Evaluation Metrics",
+      "Cross-functional Communication"
+    ],
+    "expected_missing_skills": [],
+    "expected_risk_focus": [],
+    "notes": "Positive control case with explicit evidence for nearly every major requirement."
+  },
+  {
+    "case_id": "eval_002",
+    "case_name": "Medium product candidate with weak AI evidence",
+    "job_type": "AI Product Manager",
+    "jd_text": "The role requires PRD ownership, user stories, AI Agent workflow design, LLM understanding, prompt engineering, evaluation metrics, and close communication with engineering. SQL and Streamlit are helpful.",
+    "resume_text": "Owned product roadmap planning for a SaaS analytics tool. Wrote PRDs, created user stories, aligned stakeholders, and partnered with engineering on release planning. Attended internal AI workshops and explored agent concepts, but did not own an AI Agent project. Used dashboards to track adoption metrics.",
+    "expected_strong_skills": [
+      "Product Requirement Document",
+      "User Story",
+      "Cross-functional Communication",
+      "Evaluation Metrics"
+    ],
+    "expected_missing_skills": [
+      "LLM",
+      "Prompt Engineering",
+      "Streamlit",
+      "SQL"
+    ],
+    "expected_risk_focus": [
+      "AI Agent",
+      "LLM",
+      "Prompt Engineering"
+    ],
+    "notes": "Product evidence is solid, but AI evidence is weak and should require interview verification."
+  },
+  {
+    "case_id": "eval_003",
+    "case_name": "Buzzwords with weak project evidence",
+    "job_type": "AI Product Manager",
+    "jd_text": "We need someone with AI Agent, LLM, prompt engineering, RAG, workflow design, evaluation metrics, and product communication experience.",
+    "resume_text": "Familiar with AI, LLM, RAG, prompt engineering, autonomous agent trends, product strategy, and modern analytics. Interested in building agentic products and improving enterprise workflows. Strong communicator who enjoys cross-functional collaboration.",
+    "expected_strong_skills": [
+      "LLM",
+      "Prompt Engineering",
+      "RAG",
+      "AI Agent",
+      "Cross-functional Communication"
+    ],
+    "expected_missing_skills": [
+      "Evaluation Metrics"
+    ],
+    "expected_risk_focus": [
+      "AI Agent",
+      "LLM",
+      "Prompt Engineering",
+      "RAG",
+      "Workflow Design"
+    ],
+    "notes": "Stress case for unsupported inference: keywords exist, but project evidence is thin. The current rule-based system may over-score buzzwords, which should be tracked in error analysis."
+  },
+  {
+    "case_id": "eval_004",
+    "case_name": "Candidate missing SQL evidence",
+    "job_type": "Data Product Manager",
+    "jd_text": "This product role requires data analysis, SQL, dashboard interpretation, evaluation metrics, PRD writing, user stories, and communication with engineering and business stakeholders.",
+    "resume_text": "Worked as a product manager for an internal dashboard product. Wrote PRDs and user stories, gathered stakeholder feedback, defined success metrics, and communicated with engineering during sprint planning. Used product analytics dashboards to identify adoption issues.",
+    "expected_strong_skills": [
+      "Product Requirement Document",
+      "User Story",
+      "Data Analysis",
+      "Evaluation Metrics",
+      "Cross-functional Communication"
+    ],
+    "expected_missing_skills": [
+      "SQL"
+    ],
+    "expected_risk_focus": [
+      "SQL"
+    ],
+    "notes": "The resume discusses dashboards and analytics but does not explicitly mention SQL, so SQL should remain missing."
+  },
+  {
+    "case_id": "eval_005",
+    "case_name": "Candidate missing A/B testing evidence",
+    "job_type": "Growth Product Manager",
+    "jd_text": "We are looking for a growth product manager with A/B testing, experiment design, SQL, data analysis, evaluation metrics, PRD writing, and cross-functional communication experience.",
+    "resume_text": "Led growth analysis for onboarding funnels using SQL and product dashboards. Defined activation and retention metrics, wrote PRDs for onboarding improvements, and communicated findings to design and engineering. Prioritized roadmap items based on user behavior data.",
+    "expected_strong_skills": [
+      "SQL",
+      "Data Analysis",
+      "Evaluation Metrics",
+      "Product Requirement Document",
+      "Cross-functional Communication"
+    ],
+    "expected_missing_skills": [
+      "A/B Testing"
+    ],
+    "expected_risk_focus": [
+      "A/B Testing"
+    ],
+    "notes": "Growth work is present, but no explicit experiment or A/B testing evidence should be inferred."
+  },
+  {
+    "case_id": "eval_006",
+    "case_name": "AI project without PRD or user story evidence",
+    "job_type": "AI Product Manager",
+    "jd_text": "The candidate should design AI Agent workflows, understand LLM and prompt engineering, write PRDs and user stories, define evaluation metrics, and communicate with engineering teams.",
+    "resume_text": "Built a document review AI Agent system using Python. Designed a workflow for retrieval, LLM response generation, quality check, and human escalation. Tested prompt engineering variants and documented evaluation metrics for accuracy and unsupported answer rate. Presented technical findings to engineers.",
+    "expected_strong_skills": [
+      "AI Agent",
+      "Workflow Design",
+      "LLM",
+      "Prompt Engineering",
+      "Python",
+      "Evaluation Metrics",
+      "Cross-functional Communication"
+    ],
+    "expected_missing_skills": [
+      "Product Requirement Document",
+      "User Story"
+    ],
+    "expected_risk_focus": [
+      "Product Requirement Document",
+      "User Story"
+    ],
+    "notes": "Strong AI implementation evidence, but no explicit PRD or user story evidence."
+  },
+  {
+    "case_id": "eval_007",
+    "case_name": "Product experience without AI Agent workflow evidence",
+    "job_type": "Product Manager",
+    "jd_text": "The role needs PRD writing, user stories, prototype design, AI Agent workflow design, LLM familiarity, evaluation metrics, and stakeholder communication.",
+    "resume_text": "Product manager for a B2B workflow platform. Wrote PRDs and user stories, created Figma prototypes, defined product success metrics, and collaborated with engineering, sales, and customer success teams. Improved onboarding completion through roadmap prioritization.",
+    "expected_strong_skills": [
+      "Product Requirement Document",
+      "User Story",
+      "Prototype Design",
+      "Evaluation Metrics",
+      "Cross-functional Communication"
+    ],
+    "expected_missing_skills": [
+      "AI Agent",
+      "LLM"
+    ],
+    "expected_risk_focus": [
+      "AI Agent",
+      "LLM"
+    ],
+    "notes": "Traditional product experience should not be treated as AI Agent workflow evidence."
+  },
+  {
+    "case_id": "eval_008",
+    "case_name": "CADD AIDD background transitioning to AI product",
+    "job_type": "AI Product Manager",
+    "jd_text": "We need an AI Product Manager for CADD and AIDD products. The role requires domain knowledge, AI Agent workflow design, LLM and prompt engineering understanding, Python, data analysis, evaluation metrics, PRD writing, and communication with scientists and engineers.",
+    "resume_text": "Worked on CADD and AIDD research workflows for molecular screening. Used Python for data analysis and built dashboards to review model outputs. Documented evaluation metrics for hit rate and false positive review. Collaborated with scientists and engineers to translate research needs into product requirements. Explored LLM summaries for experiment notes but did not build an AI Agent workflow.",
+    "expected_strong_skills": [
+      "Python",
+      "Data Analysis",
+      "Evaluation Metrics",
+      "Product Requirement Document",
+      "Cross-functional Communication",
+      "LLM"
+    ],
+    "expected_missing_skills": [
+      "AI Agent",
+      "Prompt Engineering"
+    ],
+    "expected_risk_focus": [
+      "AI Agent",
+      "Prompt Engineering"
+    ],
+    "notes": "Transition profile with strong domain and analytical evidence, but missing explicit agent workflow and prompt engineering project evidence."
+  },
+  {
+    "case_id": "eval_009",
+    "case_name": "HR Tech screening scenario",
+    "job_type": "HR Tech Product Manager",
+    "jd_text": "We are building HR Tech screening tools for recruiters. The role requires hiring and interview domain knowledge, HR Tech experience, AI Agent workflow design, evaluation metrics, prompt engineering, PRD writing, and cross-functional communication.",
+    "resume_text": "Designed a recruiting analytics dashboard for talent acquisition teams. Interviewed recruiters, wrote PRDs for candidate screening workflows, and defined evaluation metrics for screening consistency and interviewer follow-up rate. Collaborated with HR, legal, and engineering stakeholders. Reviewed prompt engineering guidelines for candidate summary generation.",
+    "expected_strong_skills": [
+      "Hiring and Interview",
+      "HR Tech",
+      "Product Requirement Document",
+      "Evaluation Metrics",
+      "Prompt Engineering",
+      "Cross-functional Communication"
+    ],
+    "expected_missing_skills": [
+      "AI Agent"
+    ],
+    "expected_risk_focus": [
+      "AI Agent"
+    ],
+    "notes": "Strong HR Tech and screening evidence, but no explicit AI Agent workflow implementation."
+  },
+  {
+    "case_id": "eval_010",
+    "case_name": "Unsupported inference stress test",
+    "job_type": "AI Product Manager",
+    "jd_text": "The candidate should have AI Agent workflow design, LLM, prompt engineering, RAG, SQL, A/B testing, evaluation metrics, PRD writing, user stories, and Streamlit experience.",
+    "resume_text": "Worked on strategic initiatives for digital transformation. Coordinated meetings, summarized project updates, helped prepare roadmap slides, and supported stakeholder communication. Interested in AI products and familiar with current technology trends from self-study.",
+    "expected_strong_skills": [
+      "Cross-functional Communication"
+    ],
+    "expected_missing_skills": [
+      "AI Agent",
+      "LLM",
+      "Prompt Engineering",
+      "RAG",
+      "SQL",
+      "A/B Testing",
+      "Evaluation Metrics",
+      "Product Requirement Document",
+      "User Story",
+      "Streamlit"
+    ],
+    "expected_risk_focus": [
+      "AI Agent",
+      "LLM",
+      "Prompt Engineering",
+      "RAG",
+      "SQL",
+      "A/B Testing",
+      "Evaluation Metrics",
+      "Product Requirement Document",
+      "User Story",
+      "Streamlit"
+    ],
+    "notes": "Designed to ensure the system does not infer technical or AI product skills from interest, coordination, or generic transformation language."
+  }
+]
